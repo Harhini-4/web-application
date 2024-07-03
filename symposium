@@ -1,0 +1,73 @@
+<html>
+<head><title>forms</title></head>
+<body>
+ <form>
+ <table border="5">
+   <tr>
+      <th colspan="3"><font color="red">Registration Form</font></th>
+   </tr>
+
+   <tr>
+     <th bgcolor="blue">Enter Name</th>
+     <td bgcolor="blue"><input type="text"></td>
+   </tr>
+   <tr>
+      <th bgcolor="blue">Enter Password</th>
+      <td bgcolor="blue"><input type="password"</td>
+   </tr>
+   <tr>
+       <th bgcolor="blue">Enter Address</th>
+       <td bgcolor="blue"><textarea rows="5"cols="20"name="enter address"></textarea></td>
+  </tr>
+  <tr>
+     <th bgcolor="blue">Select Game</th>
+     <td bgcolor="blue">
+           <input type="checkbox" id="hockey" name="game"value="Hockey">
+           <label for="hockey">Hockey</label><br>
+           <input type="checkbox" id="football" name="game"value="Football">
+           <label for="football">Football</label><br>
+           <input type="checkbox" id="badminton" name="game"value="Badmitton">
+           <label for="badmitton">Badmitton</label><br>
+           <input type="checkbox" id="volleyball" name="game"value="volleyball">
+           <label for="volleyball">volleyball</label><br>
+           <input type="checkbox" id="cricket" name="game"value="cricket">
+           <label for="cricket">Cricket</label><br>           
+
+   </td>
+</tr>        
+     
+<tr> 
+    <th bgcolor="blue">Select Gender</th>
+    <td bgcolor="blue"><input type="radio"name="gender">Male</td>
+    <td bgcolor="blue"><input type="radio"name="gender">Female</td>
+</tr>
+<tr>
+             <th bgcolor="blue">Select ur age</td>
+             <td bgcolor="blue">
+                  <select id="age" name="age" required>
+                  <option value="">select</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+              </td>
+ </tr>
+<tr>
+  <th bgcolor="blue">Select Photo</th>
+  <td bgcolor="blue"><input type="file"id="photo"name="photo"accept="image/*"required></td>
+</tr>
+<tr>
+<td colspan="3" bgcolor="blue">
+   <input type="button"value="click me">
+   <input type="reset"value="Reset">
+   <input type="submit"value="Submit">
+</td>
+</tr>
+</body>
+</table>
+</form>
+</html>
+   
+  
+  
+
+ 
