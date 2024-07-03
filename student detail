@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <center><h1>Symposium Form</h1></center>
+    <body>
+        <center><fieldset></center>
+            <form>
+                Name:<br>
+                <input type="text"id="name"><br><br>
+                Email:<br>
+                <input type="text"id="email"><br><br>
+                college:<br>
+                <input type="text"id="college"><br><br>
+                Degree:<br>
+                <select>
+                    <option value="">Degree</option>
+                    <option>UG</option>
+                    <option>PG</option>
+                    <option>Other</option>
+                </select><br><br>
+                Year:<br>
+                <select>
+                    <option value="">Year</option>
+                    <option>I</option>
+                    <option>II</option>
+                    <Option>III</Option>
+                    <option>IV</option>
+                </select><br><br>
+                Technical Events:<br>
+                <input type="checkbox">Technical Quix<br>
+                <input type="checkbox">Code Hunters<br>
+                <input type="checkbox">Paper presentation<br><br>
+                Non-Technical Events:<br>
+                <input type="checkbox">Singing<br>
+                <input type="checkbox">Group Dance<br>
+                <input type="checkbox">Flower Decoration<br><br>
+                Registration Mode:<br>
+                <select>
+                    <option value="">Payment</option>
+                    <option>Online</option>
+                    <option>Offline</option>
+                </select><br><br>
+                Phone Number:<br>
+                <input type="number"id="pno"><br><br>
+                <input type="submit"><br>
+
+
+            </form>
+        </fieldset>
+
+    </body>
+</html>
