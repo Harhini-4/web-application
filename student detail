@@ -1,53 +1,77 @@
-<html>
-    <head>
-        <title>Form</title>
-    </head>
-    <center><h1>Symposium Form</h1></center>
-    <body>
-        <center><fieldset></center>
-            <form>
-                Name:<br>
-                <input type="text"id="name"><br><br>
-                Email:<br>
-                <input type="text"id="email"><br><br>
-                college:<br>
-                <input type="text"id="college"><br><br>
-                Degree:<br>
-                <select>
-                    <option value="">Degree</option>
-                    <option>UG</option>
-                    <option>PG</option>
-                    <option>Other</option>
-                </select><br><br>
-                Year:<br>
-                <select>
-                    <option value="">Year</option>
-                    <option>I</option>
-                    <option>II</option>
-                    <Option>III</Option>
-                    <option>IV</option>
-                </select><br><br>
-                Technical Events:<br>
-                <input type="checkbox">Technical Quix<br>
-                <input type="checkbox">Code Hunters<br>
-                <input type="checkbox">Paper presentation<br><br>
-                Non-Technical Events:<br>
-                <input type="checkbox">Singing<br>
-                <input type="checkbox">Group Dance<br>
-                <input type="checkbox">Flower Decoration<br><br>
-                Registration Mode:<br>
-                <select>
-                    <option value="">Payment</option>
-                    <option>Online</option>
-                    <option>Offline</option>
-                </select><br><br>
-                Phone Number:<br>
-                <input type="number"id="pno"><br><br>
-                <input type="submit"><br>
-
-
-            </form>
-        </fieldset>
-
-    </body>
+<!DOCTYPE HTML>
+<head><title>Students details</title></head>
+<body text="black">
+<center><h1>STUDENT DETAILS</h1></center>
+<center><table border width="2"height=50%></center>
+<tr>
+ <th>sno</th>
+ <th>Student ID</th>
+ <th>Name</th>
+ <th>Gender</th>
+ <th>DOB</th>
+ <th>Adress</th>
+ <th>Phone Number</th>
+ <th>Email</th>
+ <th>Year/semester</th>
+ <tr>
+ <td>1</td>
+ <td>711522BCB017</td>
+ <td>Harshini</th>
+ <td>Female</td>
+ <td>30/11/2004</td>
+ <td>qqqq</td>
+ <td>8888888888</td>
+ <td>kit26.csbs17@gmail.com</td>
+ <td>II/IV</td>
+</tr>
+<tr>
+ <td>2</td>
+ <td>711522BCB018</td>
+ <td>srinithi</th>
+ <td>Female</td>
+ <td>8/3/2005</td>
+ <td>ssss</td>
+ <td>999999999</td>
+ <td>kit26.csbs18@gmail.com</td>
+ <td>II/IV</td>
+</tr>
+<tr>
+ <td>3</td>
+ <td>711522BCB019</td>
+ <td>Rubana</th>
+ <td>Female</td>
+ <td>26/12/2005</td>
+ <td>rrrrr</td>
+ <td>7777777777</td>
+ <td>kit26.csbs19@gmail.com</td>
+ <td>II/IV</td>
+</tr>
+<tr>
+ <td>4</td>
+ <td>711522BCB020</td>
+ <td>Gopika</th>
+ <td>Female</td>
+ <td>29/11/2004</td>
+ <td>hhhhhhh</td>
+ <td>6666666666</td>
+ <td>kit26.csbs20@gmail.com</td>
+ <td>II/IV</td>
+</tr>
+<tr>
+ <td>5</td>
+ <td>711522BCB021</td>
+ <td>Dharshini</th>
+ <td>Female</td>
+ <td>30/11/2004</td>
+ <td>ddddd</td>
+ <td>555555555</td>
+ <td>kit26.csbs21@gmail.com</td>
+ <td>II/IV</td>
+</tr>
+</table>
+</body>
 </html>
+
+
+                
+                
