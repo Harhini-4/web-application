@@ -1,0 +1,60 @@
+<html>
+<head><title>rowspan</title></head>
+<body>
+<center><h1>COURSE REGISTERED TABLE USING ROWSPAN AND COLSPAN</h1></center>
+<center><table border="2"width=50%></center>
+<tr>
+<th>s.no</th>
+<th>Name</th>
+<th>Course Registered</th>
+<th>Email</th>
+<th>college</th>
+<th>Degree/Course</th>
+<th>Year/semester</th>
+<th>phone Number</th>
+<th>city</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Harshini</td>
+<td rowspan="2">DBMS</td>
+<td>kit26.csbs17@gmail.com</td>
+<td rowspan="6">KIT-Kalaignar Karunanidhi Institute Of Technology</td>
+<td rowspan="6">BTECH CSBS</td>
+<td rowspan="6">II/IV</td>
+<td>9342976246</td>
+<td rowspan="6">coimbatore</td>
+</tr>
+<td>2</td>
+<td>srinithi</td>
+<td>kit26.csbs18@gmail.com</td>
+<td>9342976246</td>
+</tr>
+<td>3</td>
+<td>Rubana</td>
+<td rowspan="2">C programming</td>
+<td>kit26.csbs22@gmail.com</td>
+<td>9342976246</td>
+</tr>
+<td>4</td>
+<td>Gopika</td>
+<td>kit26.csbs20@gmail.com</td>
+<td>9342976246</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Dharshini</td>
+<td rowspan="2">Python programming</td>
+<td>kit26.csbs21@gmail.com</td>
+<td>9342976246</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Kanimozhi</td>
+<td>kit26.csbs19@gmail.com</td>
+<td>9342976246</td>
+</tr>
+</table>
+</body>
+</html>
+
